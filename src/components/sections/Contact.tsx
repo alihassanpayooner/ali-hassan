@@ -10,20 +10,20 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "your.email@example.com",
-    href: "mailto:your.email@example.com"
+    value: "alihassanpayooner@gmail.com",
+    href: "mailto:alihassanpayooner@gmail.com"
   },
   {
     icon: MapPin,
     label: "Location",
-    value: "Your City, Country",
+    value: "Bahawalpur, Pakistan ",
     href: null
   },
   {
     icon: Briefcase,
     label: "Upwork",
     value: "Available for Hire",
-    href: "https://www.upwork.com/freelancers/yourprofile"
+    href: "https://www.upwork.com/freelancers/~01eb8a49c7a23a965d"
   }
 ];
 
@@ -103,7 +103,7 @@ const Contact = () => {
                   className="w-full bg-background text-foreground hover:bg-background/90"
                 >
                   <a 
-                    href="https://www.upwork.com/freelancers/yourprofile"
+                    href="https://www.upwork.com/freelancers/~01eb8a49c7a23a965d"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center gap-2"

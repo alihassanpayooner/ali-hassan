@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import ThemeToggle from "./ThemeToggle";
 
 const navLinks = [
   { name: "Home", href: "#home" },
@@ -39,7 +40,7 @@ const Navbar = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            Dev<span className="text-muted-foreground">.</span>
+            Ali Hassan<span className="text-muted-foreground">.</span>
           </motion.a>
 
           {/* Desktop Menu */}
@@ -55,6 +56,7 @@ const Navbar = () => {
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-foreground transition-all duration-300 group-hover:w-full" />
               </motion.a>
             ))}
+            <ThemeToggle />
           </div>
 
           {/* Mobile Menu Button */}

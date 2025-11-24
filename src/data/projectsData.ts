@@ -5,62 +5,82 @@ export interface Project {
   image: string;
   techStack: string[];
   liveUrl: string;
-  githubUrl: string;
+  // githubUrl: string;
 }
 
 export const projectsData: Project[] = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "Full-stack MERN e-commerce application with payment integration, admin dashboard, and real-time inventory management.",
-    image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80",
-    techStack: ["React", "Node.js", "MongoDB", "Express", "Stripe"],
-    liveUrl: "#",
-    githubUrl: "#"
+    title: "Gridiron1880 Fan-Vote Platform, All-American College Football",
+    description:
+      "Built a fan-voting web application for Gridiron1880, enabling college football fans, alumni, and players to vote for Walter Camp All-Americans. Delivered a user-friendly interface for casting votes by player position, viewing live rankings, and comparing with expert analysis. Integrated real-time data and ranking APIs for player impact and All-American selection. Ensured secure voting, mobile responsiveness, and scalable architecture to handle high-traffic voting events.",
+    image:
+      "../assets/grid_iron.png",
+    techStack: ["Next.js", "PostgreSQL", "Prisma", "TailwindCSS"],
+    liveUrl: "https://www.votegridiron1880.com/",
+    // githubUrl: "#",
   },
   {
     id: 2,
-    title: "SaaS Analytics Dashboard",
-    description: "Next.js TypeScript application with real-time analytics, data visualization, and multi-tenant architecture.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
-    techStack: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "TailwindCSS"],
+    title: "Almarai Recipes Web Platform",
+    description:
+      "Developed a dynamic web platform for Almarai’s “Recipes” section to showcase high-quality, brand-aligned cooking content. Implemented a responsive UI with recipe filtering by meal type, brand, and occasion. Built CMS tools for content editors to easily add and manage recipes. Optimized for SEO, performance, and usability to boost user engagement and dwell time. Delivered a scalable web solution promoting healthy cooking with Almarai products.",
+    image:
+      "../assets/almarai.png",
+    techStack: [
+      "React.js",
+      "TypeScript",
+      "Node.js",
+      "MongoDB",
+      "Express",
+      "Tailwind",
+    ],
     liveUrl: "#",
-    githubUrl: "#"
+    // githubUrl: "#",
   },
   {
     id: 3,
-    title: "Social Media API",
-    description: "RESTful API built with Django and Django REST Framework featuring authentication, real-time notifications, and media handling.",
-    image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&q=80",
-    techStack: ["Python", "Django", "PostgreSQL", "Redis", "AWS S3"],
-    liveUrl: "#",
-    githubUrl: "#"
+    title: "iGotPlans",
+    description:
+      "Developed a role-based platform for organizers, venue owners, and managers using React.js, Bootstrap, and Firebase. Integrated real-time scheduling, secure ticket purchases, and dynamic dashboards.",
+    image:
+      "../assets/igotplans.png",
+    techStack: ["React", "Firebase", "Node.js", "Bootstrap"],
+    liveUrl: "https://web.igotplans.co.uk/",
+    // githubUrl: "#",
   },
-  {
-    id: 4,
-    title: "Project Management Tool",
-    description: "Collaborative project management platform with real-time updates, task tracking, and team communication features.",
-    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
-    techStack: ["React", "Node.js", "Socket.io", "MongoDB", "Redux"],
-    liveUrl: "#",
-    githubUrl: "#"
-  },
+
   {
     id: 5,
-    title: "AI Content Generator",
-    description: "Next.js application integrating OpenAI APIs for content generation with user authentication and subscription management.",
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80",
-    techStack: ["Next.js", "TypeScript", "OpenAI API", "Stripe", "Supabase"],
-    liveUrl: "#",
-    githubUrl: "#"
+    title: "Summz – AI-Powered Text Summarizer (GPT-4 + React)",
+    description:
+      "Built an AI-based summarization app using React.js, Tailwind CSS, and GPT-4 API. Designed a minimal interface with text input/upload, summary output, and responsive layout. Deployed via Netlify for instant access.",
+    image:
+      "../assets/ai-aumz.png",
+    techStack: ["Next.js", "TypeScript", "OpenAI API"],
+    liveUrl: "https://ai-ar-summarizer.netlify.app/",
+    // githubUrl: "#",
   },
   {
     id: 6,
-    title: "Healthcare Management System",
-    description: "Django-based healthcare platform with patient records, appointment scheduling, and secure HIPAA-compliant data handling.",
-    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
-    techStack: ["Django", "Python", "PostgreSQL", "Celery", "Docker"],
-    liveUrl: "#",
-    githubUrl: "#"
-  }
+    title: "JustTap",
+    description:
+      "Created a scalable storefront using React.js and Firebase for authentication, Firestore DB, and order management. Used Redux for state handling and cart logic.",
+    image:
+      "../assets/juts_tap.png",
+    techStack: ["React", "Payment Integration", "Node.js", "Firebase"],
+    liveUrl: "https://shop.justtap.us/",
+    // githubUrl: "#",
+  },
+  {
+    id: 4,
+    title: "Utube – Video Browsing & Playback App ",
+    description:
+      "Developed a clean React.js UI replicating core YouTube features: video grid, search, and playback view. Deployed with Vercel for production-grade hosting.",
+    image:
+      "../assets/utube.png",
+    techStack: ["React", "Node.js", "MongoDB", "Redux", "Api Integration"],
+    liveUrl: "https://utube-nine.vercel.app/",
+    // githubUrl: "#",
+  },
 ];

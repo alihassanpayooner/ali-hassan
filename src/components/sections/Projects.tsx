@@ -54,7 +54,7 @@ const Projects = () => {
                         <ExternalLink className="w-4 h-4" />
                       </a>
                     </Button>
-                    <Button
+                    {/* <Button
                       asChild
                       size="icon"
                       variant="outline"
@@ -63,7 +63,7 @@ const Projects = () => {
                       <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
                         <Github className="w-4 h-4" />
                       </a>
-                    </Button>
+                    </Button> */}
                   </div>
                 </div>
 
